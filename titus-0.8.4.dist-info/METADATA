@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: titus
+Version: 0.8.4
+Summary: Python implementation of Portable Format for Analytics (PFA): producer, converter, and consumer.
+Home-page: UNKNOWN
+Author: Open Data Group
+Author-email: support@opendatagroup.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: avro (>=1.7.6)
+Requires-Dist: ply (>=3.4)
+
+UNKNOWN
+
+
