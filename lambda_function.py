@@ -14,5 +14,3 @@ def lambda_handler(event, context):
     ''')
     
     return engine.action(3.14)
-    
-    #raise Exception('Something went wrong')
