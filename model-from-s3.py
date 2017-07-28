@@ -8,7 +8,7 @@ print('Creating Scoring Engine')
 
 # download the model
 bucket = 'my-pfa-models'
-key = 'rf-model.pfa'
+key = 'model.pfa'
 download_path = '/tmp/{}{}'.format(uuid.uuid4(), key)
 s3_client = boto3.client('s3')
 s3_client.download_file(bucket, key, download_path)
